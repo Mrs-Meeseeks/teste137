@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    compiler: {
+        taildcss: true
+    }
+}
 
 module.exports = nextConfig
